@@ -21,7 +21,7 @@ public class AppStartupListener {
         for (int i = 1; i < 3; i++) {
             Product product = new Product();
             product.setName("Prod "+i);
-            product.setPrice(15);
+            product.setPrice(15*i);
             product.setStore(store);
             store.addProduct(product);
         }
